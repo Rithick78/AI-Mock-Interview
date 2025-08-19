@@ -63,8 +63,8 @@ function WebCam( {mockInterviewQuestion, interviewData , activeIndex}) {
     <div>
       <div className=' flex flex-col gap-5 items-center '>
         {enable ?
-        <div className='mt-10 rounded-3xl 2xl:w-150 xl:w-110 sm:[70%] w-[90%] h-70 sm:h-100'>
-          <Webcam mirrored={true} className='rounded-xl' />
+        <div className=' rounded-3xl 2xl:w-150 xl:w-110 sm:[70%] w-[90%] '>
+          <Webcam mirrored={true} className='rounded-xl h-70 sm:h-100' />
          </div> 
           : <div className='bg-[gray]/10 2xl:w-150 xl:w-110 sm:[70%] w-[90%] h-70 sm:h-100 mt-10 rounded-xl flex justify-center items-center'>
             <CameraOff className=' md:size-17 sm:size-12 size-10 ' />

@@ -56,10 +56,10 @@ function Interview() {
                         Start Interview <ArrowRight /></button>
                      </Link>
                 </div>
-                <div className= {`flex flex-col ${enable || 'gap-6'} items-center`}>
+                <div className= {`flex flex-col gap-10 items-center`}>
                     {enable ?
                         <div className='rounded-xl sm:w-130 w-70 sm:h-100 h-70 mt-15' >
-                        <Webcam mirrored={true} className='rounded-xl sm:h-100 h-70 sm:w-130 w-70' />
+                        <Webcam mirrored={true} className='rounded-2xl sm:h-100 h-70 sm:w-130 w-90' />
                         </div>
                         : <div className='bg-[gray]/10 sm:w-130 w-70 sm:h-100 h-70 mt-10 rounded-xl flex justify-center items-center'>
                             <CameraOff className=' size-17 ' />

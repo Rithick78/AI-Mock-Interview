@@ -11,7 +11,7 @@ function page() {
       <Header />
       <div className='flex flex-col xl:gap-10 gap-5  justify-center items-center mt-10'>
         <div className='bg-[white]/20 sm:w-[75%] w-[95%] rounded-3xl flex justify-center items-center'>
-          <h1 className='2xl:text-6xl xl:text-4xl md:text-3xl sm:text-2xl text-5xl  font-extrabold lg:py-15 py-8 sm:flex ml-10 sm:ml-0 sm:flex-row items-center gap-4 bg-gradient-to-r from-purple-500 via-blue-400 to-orange-400 bg-clip-text text-transparent'>Ace Your Next Interview With <span className='lg:border-4 md:border-3 border-2 border-blue-500 p-1 md:py-2 md:px-2 rounded-full text-blue-500 lg:text-4xl md:text-2xl text-[20px]'> AI</span> </h1>
+          <h1 className='2xl:text-6xl xl:text-4xl md:text-3xl sm:text-2xl text-6xl  font-extrabold lg:py-15 py-8 sm:flex ml-10 sm:ml-0 sm:flex-row items-center gap-4 bg-gradient-to-r from-purple-500 via-blue-400 to-orange-400 bg-clip-text text-transparent'>Ace Your Next Interview With <span className='lg:border-4 border-3 border-blue-500  py-2 px-2 rounded-full text-blue-500 lg:text-4xl text-2xl'> AI</span> </h1>
         </div>
         <div className=' flex lg:flex-row flex-col-reverse justify-between items-center gap-3 rounded-3xl p-5 2xl:mx-50 sm:mx-10'>
           <div className='lg:w-1/2 sm:w-[90%] w-full font-semibold sm:border-2 border-gray-400 sm:py-10 py-5 md:px-12 md:py-7 sm:px-5 lg:px-17 rounded-3xl space-y-5 sm:text-[16px] text-[9px]'>
